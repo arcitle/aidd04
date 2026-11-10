@@ -102,6 +102,7 @@ def list_tasks(done: Optional[bool] = None) -> list:
     done: true — только выполненные, false — только невыполненные, не задано — все.
     """
     # TODO: GET /api/tasks [?urlencode({"done": "true"/"false"})]
+    return _get("/api/tasks" + ("" if done is None else urlencode({"done": str(done).lower()})))
     raise NotImplementedError
 
 
