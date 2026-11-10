@@ -29,7 +29,7 @@
   "mcpServers": {
       "todo": {
           "command": "/home/arcle/.conda/envs/aidd-mcp/bin/python",
-          "args": ["/home/arcle/mcs/aidd24/aidd_week_04_mcp/practice/mcp/server.py"],
+          "args": ["/home/arcle/mcs/aidd04/aidd_week_04_mcp/practice/mcp/server.py"],
           "env": { "TODO_API_URL": "http://127.0.0.1:5000" }
       }
   },
